@@ -1,49 +1,26 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-  <meta charset="UTF-8">
-  <title>EduKatz - Rewolucyjny Asystent Edukacyjny</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <title>EduKatz Chat</title>
   <style>
-    /* Reset i podstawowe style */
+    /* Ustawienie marginesów i wypełnień na zero, aby iframe zajął całą stronę */
     html, body {
       margin: 0;
       padding: 0;
       height: 100%;
-      overflow: hidden;
-      font-family: Arial, sans-serif;
-      background: #f0f8ff;
     }
-    /* Nagłówek strony */
-    header {
-      background-color: #ffcc00;
-      color: #333;
-      text-align: center;
-      padding: 15px 10px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2em;
-    }
-    header p {
-      margin: 5px 0 0;
-      font-size: 1.1em;
-    }
-    /* Styl iframe, aby zajmował całą dostępną przestrzeń */
+    /* iFrame na pełną wysokość i szerokość */
     iframe {
-      border: none;
       width: 100%;
-      height: calc(100% - 80px); /* uwzględniając wysokość nagłówka */
+      height: 100%;
+      border: none;
       display: block;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>EduKatz – Rewolucyjny Asystent Edukacyjny</h1>
-    <p>Przygoda w świecie wiedzy zaczyna się tutaj! 😺✨</p>
-  </header>
-  <iframe src="https://hf.co/chat/assistant/67b82f23059b47c23c9083b1" title="EduKatz Chatbot"></iframe>
+  <!-- Próba osadzenia Chatbota w pełnym oknie -->
+  <iframe src="https://hf.co/chat/assistant/67b82f23059b47c23c9083b1" allow="camera; microphone;"></iframe>
 </body>
 </html>
